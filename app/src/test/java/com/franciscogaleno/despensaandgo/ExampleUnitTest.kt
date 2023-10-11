@@ -1,4 +1,4 @@
-package com.example.despensaandgo
+package com.franciscogaleno.despensaandgo
 
 import org.junit.Test
 

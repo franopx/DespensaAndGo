@@ -13,13 +13,13 @@
         android:theme="@style/Theme.DespensaAndGo"
         tools:targetApi="31">
         <activity
-            android:name=".InventoryActivity"
+            android:name="com.franciscogaleno.despensaandgo.InventoryActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.franciscogaleno.despensaandgo.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".StartupActivity"
+            android:name="com.franciscogaleno.despensaandgo.StartupActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

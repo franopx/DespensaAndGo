@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="fill"
-    tools:context=".StartupActivity">
+    tools:context="com.franciscogaleno.despensaandgo.StartupActivity">
 
     <LinearLayout
         android:layout_width="0dp"

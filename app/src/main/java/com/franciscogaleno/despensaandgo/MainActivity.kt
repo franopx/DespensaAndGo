@@ -1,11 +1,12 @@
-package com.example.despensaandgo
+package com.franciscogaleno.despensaandgo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.despensaandgo.R
 
-class InventoryActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_inventory)
+        setContentView(R.layout.activity_main)
     }
 }

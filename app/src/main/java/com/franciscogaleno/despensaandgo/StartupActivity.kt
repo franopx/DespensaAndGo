@@ -1,10 +1,11 @@
-package com.example.despensaandgo
+package com.franciscogaleno.despensaandgo
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.example.despensaandgo.R
 
 class StartupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
