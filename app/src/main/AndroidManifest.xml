@@ -13,6 +13,9 @@
         android:theme="@style/Theme.DespensaAndGo"
         tools:targetApi="31">
         <activity
+            android:name="com.franciscogaleno.despensaandgo.ShopListActivity"
+            android:exported="false" />
+        <activity
             android:name="com.franciscogaleno.despensaandgo.InventoryActivity"
             android:exported="false" />
         <activity
