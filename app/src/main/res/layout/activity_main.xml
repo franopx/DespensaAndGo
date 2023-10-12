@@ -36,40 +36,21 @@
     <LinearLayout
         android:id="@+id/homeFrame"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="32dp">
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_weight="3"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|center_vertical"
-                android:text="@string/budget_prompt"
-                android:textAlignment="gravity"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-            <EditText
-                android:id="@+id/editTextNumber"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:ems="10"
-                android:hint="Monto"
-                android:inputType="number"
-                android:paddingLeft="8dp"
-                android:text="10000"
-                tools:ignore="HardcodedText" />
-        </LinearLayout>
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/cart_photo_foreground" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="12dp"
             android:layout_weight="3" />
 
         <TextView
@@ -105,7 +86,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="12dp"
             android:layout_weight="3" />
 
         <TextView
@@ -135,6 +116,22 @@
             android:layout_weight="1"
             android:onClick="onProductButtonClick"
             android:text="@string/manage_products"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_weight="3" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:onClick="onAboutButtonClick"
+            android:text="@string/about"
             android:textAlignment="viewStart"
             android:textColor="@color/white" />
     </LinearLayout>
