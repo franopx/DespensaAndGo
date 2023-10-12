@@ -89,7 +89,7 @@
                     android:text="Tienda:" />
 
                 <TextView
-                    android:id="@+id/shopName"
+                    android:id="@+id/shopNameProduct"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nombre Tienda"
