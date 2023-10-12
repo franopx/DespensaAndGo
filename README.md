@@ -1,5 +1,6 @@
 # DespensaAndGo
 (Ver README en Github para mejor formato)
+Link: https://github.com/franopx/DespensaAndGo
 
 ## Requerimientos
 ### Funcionales:
@@ -11,4 +12,7 @@
 - La aplicación debe ser de fácil uso.
 - La aplicación debe ser accesible para todo tipo de usuarios.
 - La aplicación debe tener una interfaz ordenada y correctamente jerarquizada
+
+## Diagrama de Clases
+![Diagrama](diagrama_app.drawio.png)
 
