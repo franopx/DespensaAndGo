@@ -1,4 +1,43 @@
 <resources>
     <string name="app_name">DespensaAndGo</string>
+    <string name="developer_credits">por FranoTech</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+
+    <string name="add_products">Agregar Productos</string>
+    <string name="add_product">Agregar Producto</string>
+    <string name="add_shop">Agregar Tienda</string>
+    <string name="choose_shop">Elegir Tienda</string>
+    <string name="manage_data">Gestionar datos</string>
+    <string name="manage_shops">Gestionar tiendas</string>
+    <string name="manage_products">Gestionar productos</string>
+    <string name="select_products">Selecciona el producto</string>
+
+    <string name="name_prompt">Nombre: </string>
+    <string name="price_prompt">Precio: $ </string>
+    <string name="budget_prompt">Presupuesto: $ </string>
+    <string name="shop_prompt">Tienda: </string>
+    <string name="open_time_prompt">Hora de apertura: </string>
+    <string name="closing_time_prompt">Hora de cierre: </string>
+    <string name="location_prompt">Ubicación: </string>
+    <string name="total_prompt">Total: $ </string>
+    <string name="count_prompt">Cantidad: </string>
+    <string name="open_from_prompt">Abierto desde: </string>
+    <string name="closing_in_prompt"> hasta </string>
+
+    <string name="product">Producto</string>
+    <string name="products">Productos</string>
+    <string name="currency">Pesos</string>
+    <string name="shop">Tienda</string>
+    <string name="shops">Tiendas</string>
+    <string name="price">Precio</string>
+    <string name="street">Calle</string>
+    <string name="inventory">Despensa</string>
+    <string name="shopping_list">Lista de Compras</string>
+    <string name="buying">¿Vas a comprar?</string>
+
+    <string name="about">Acerca de</string>
+    <string name="developer">Desarrollado por Francisco Galeno</string>
 
 </resources>

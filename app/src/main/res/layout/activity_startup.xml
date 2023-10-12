@@ -23,12 +23,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            app:srcCompat="@drawable/ic_launcher_background" />
+            app:srcCompat="@drawable/app_logo" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bienvenido a la app" />
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:paddingTop="48dp"
+            android:text="@string/developer_credits"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

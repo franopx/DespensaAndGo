@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-medium"
             android:padding="6dp"
-            android:text="Selecciona el producto"
+            android:text="@string/select_products"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 

@@ -51,10 +51,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|center_vertical"
-                android:text="Presupuesto: $"
+                android:text="@string/budget_prompt"
                 android:textAlignment="gravity"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                 />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
             <EditText
                 android:id="@+id/editTextNumber"
@@ -78,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
-            android:text="¿Vas a comprar?"
+            android:text="@string/buying"
             android:textAlignment="center"
             tools:ignore="HardcodedText" />
 
@@ -89,7 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:onClick="onInventoryButtonClick"
-            android:text="Despensa"
+            android:text="@string/inventory"
             android:textAlignment="viewStart"
             android:textColor="@color/white" />
 
@@ -100,7 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:onClick="onShoppingListButtonClick"
-            android:text="Listas de compra"
+            android:text="@string/shopping_list"
             android:textAlignment="viewStart"
             android:textColor="@color/white" />
 
@@ -114,7 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
-            android:text="Gestionar datos"
+            android:text="@string/manage_data"
             android:textAlignment="center" />
 
         <Button
@@ -124,7 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onShopButtonClick"
-            android:text="Gestionar tiendas"
+            android:text="@string/manage_shops"
             android:textAlignment="viewStart"
             android:textColor="@color/white" />
 
@@ -135,7 +134,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onProductButtonClick"
-            android:text="Gestionar productos"
+            android:text="@string/manage_products"
             android:textAlignment="viewStart"
             android:textColor="@color/white" />
     </LinearLayout>

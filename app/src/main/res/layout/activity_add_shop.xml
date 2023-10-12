@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-medium"
         android:padding="12dp"
-        android:text="Agregar Tienda"
+        android:text="@string/add_shop"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Nombre:"
+            android:text="@string/name_prompt"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
@@ -41,7 +41,7 @@
             android:layout_height="48dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="Tienda"
+            android:hint="@string/shop"
             android:inputType="text" />
 
     </LinearLayout>
@@ -56,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Hora de apertura: "
+            android:text="@string/open_time_prompt"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Hora de cierre: "
+            android:text="@string/closing_time_prompt"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
@@ -141,7 +141,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Ubicación: "
+            android:text="@string/location_prompt"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
@@ -150,7 +150,7 @@
             android:layout_height="48dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="Calle"
+            android:hint="@string/street"
             android:inputType="text" />
 
     </LinearLayout>
@@ -167,7 +167,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cancelar" />
+            android:text="@string/cancel" />
 
         <Button
             android:id="@+id/okShopButton"
@@ -175,7 +175,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@android:string/ok" />
+            android:text="@string/ok" />
     </LinearLayout>
 
 </LinearLayout>

@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-medium"
         android:padding="12dp"
-        android:text="Productos"
+        android:text="@string/products"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -23,7 +23,7 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Agregar producto" />
+        android:text="@string/add_product" />
 
     <ListView
         android:id="@+id/productList"

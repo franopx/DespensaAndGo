@@ -37,7 +37,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Abierto desde"
+                    android:text="@string/open_from_prompt"
                     android:textAlignment="viewStart" />
 
                 <TextView
@@ -65,7 +65,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="  hasta  " />
+                    android:text="@string/closing_in_prompt" />
 
                 <TextView
                     android:id="@+id/shopCloseHourText"
@@ -99,7 +99,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Ubicación: " />
+                    android:text="@string/location_prompt" />
 
                 <TextView
                     android:id="@+id/shopStreetText"

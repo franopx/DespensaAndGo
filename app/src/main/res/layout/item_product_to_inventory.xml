@@ -53,7 +53,7 @@
                         android:id="@+id/priceHint"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Precio:"
+                        android:text="@string/price"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
                     <TextView
@@ -75,7 +75,7 @@
                         android:id="@+id/shopHint"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tienda:" />
+                        android:text="@string/shop_prompt" />
 
                     <TextView
                         android:id="@+id/shopNameProduct"
@@ -96,7 +96,7 @@
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Cantidad:" />
+                        android:text="@string/count_prompt" />
 
                     <TextView
                         android:id="@+id/countText"
