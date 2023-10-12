@@ -3,20 +3,22 @@ package com.franciscogaleno.despensaandgo
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import android.util.Log
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.ListView
 import com.example.despensaandgo.R
-import com.franciscogaleno.despensaandgo.adapter.ProductListAdapter
+import com.franciscogaleno.despensaandgo.adapter.ProductToInventoryListAdapter
+import com.franciscogaleno.despensaandgo.entity.DefaultValues
 import com.franciscogaleno.despensaandgo.entity.Product
 
 class InventoryActivity : AppCompatActivity() {
 
     private lateinit var listViewProducts: ListView
     private var listOption: Boolean = true
-    private var detailOption: Boolean = false
+    private var detailOption: Boolean = true
     private lateinit var products: MutableList<Product>
-    private lateinit var adapterItems: ProductListAdapter
+    private lateinit var adapterItems: ProductToInventoryListAdapter
     private lateinit var adapter : ArrayAdapter<Product>
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,28 +27,11 @@ class InventoryActivity : AppCompatActivity() {
 
         listViewProducts = findViewById<ListView>(R.id.inventoryList)
 
-        products = mutableListOf(
-            Product(
-                "Caja de 12 huevos",
-                "Es un huevo",
-                5000,
-                "Unimarc",
-                1
-            ),
-            Product(
-                "Pan Brioche",
-                "Rico pancito",
-                1590,
-                "Cugat",
-                1
-            )
-        )
+        products = mutableListOf<Product>()
 
         adapter = ArrayAdapter<Product>(this, android.R.layout.simple_list_item_1, products)
-
         listViewProducts.adapter = adapter
-
-        adapterItems = ProductListAdapter(this, R.layout.item_product, products)
+        adapterItems = ProductToInventoryListAdapter(this, R.layout.item_product_to_inventory, products)
         listViewProducts.adapter = adapterItems
 
         /*
@@ -63,6 +48,33 @@ class InventoryActivity : AppCompatActivity() {
             }
         }
          */
+
+        val addButton = findViewById<Button>(R.id.addProductButton)
+        addButton.setOnClickListener {
+            Log.d("CREATION", "Añadir")
+            val intent = Intent(this, ProductToInventoryActivity::class.java)
+            startActivityForResult(intent, 1)
+
+        }
     }
 
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (resultCode == 2 && requestCode == 1) {
+            val addingProduct = data?.getParcelableExtra<Product>("addedProduct") as Product
+
+            var productFound = false
+            for(product in products)
+            {
+                if(product.name == addingProduct.name)
+                {
+                    product.count += 1
+                    productFound = true
+                    break
+                }
+            }
+            if(!productFound) products.add(addingProduct)
+            adapterItems.notifyDataSetChanged()
+        }
+    }
 }

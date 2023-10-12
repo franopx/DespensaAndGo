@@ -8,7 +8,7 @@ data class Product(
     val description: String?,
     val price: Int,
     val shop: String?, // For now
-    val count: Int,
+    var count: Int,
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString(),

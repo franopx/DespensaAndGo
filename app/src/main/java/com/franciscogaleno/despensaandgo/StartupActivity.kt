@@ -17,7 +17,7 @@ class StartupActivity : AppCompatActivity() {
 
         val handler = Handler(Looper.getMainLooper())
         handler.postDelayed({
-            val intent = Intent(this, ShopListActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }, delayMillis)
     }

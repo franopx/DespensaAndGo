@@ -7,6 +7,7 @@ import android.widget.ListView
 import com.example.despensaandgo.R
 import com.franciscogaleno.despensaandgo.adapter.ProductListAdapter
 import com.franciscogaleno.despensaandgo.adapter.ShopListAdapter
+import com.franciscogaleno.despensaandgo.entity.DefaultValues
 import com.franciscogaleno.despensaandgo.entity.Shop
 
 class ShopListActivity : AppCompatActivity() {
@@ -23,20 +24,7 @@ class ShopListActivity : AppCompatActivity() {
 
         listViewProducts = findViewById<ListView>(R.id.shopList)
 
-        shops = mutableListOf(
-            Shop(
-                "Unimarc Centro",
-                9, 0,
-                21, 30,
-                "1 Sur 1531"
-            ),
-            Shop(
-                "Cugat",
-                9, 30,
-                21, 45,
-                "Av. Lircay 2455"
-            )
-        )
+        shops = DefaultValues().getShops()
 
         adapter = ArrayAdapter<Shop>(this, android.R.layout.simple_list_item_1, shops)
 
