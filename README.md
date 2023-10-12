@@ -1,7 +1,7 @@
 # DespensaAndGo
 (Ver README en Github para mejor formato)
 
-![Logo](Frame 1DGOLOGO.png)
+![Logo](Frame_1DGOLOGO.png)
 
 - Link GitHub: https://github.com/franopx/DespensaAndGo
 - Link Video: https://youtu.be/iOrNk1Hjtsw
