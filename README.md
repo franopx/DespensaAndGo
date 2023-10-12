@@ -3,7 +3,7 @@
 - Link GitHub: https://github.com/franopx/DespensaAndGo
 - Link Video: https://youtu.be/iOrNk1Hjtsw
 
-## Requerimientos
+## Desarrollo
 ### Funcionales:
 - La aplicación debe disponer de pantallas: bienvenida, home, inventario, tiendas, lista de compras y productos.
 - La aplicación debe permitir la gestión del inventario y lista de compras.
@@ -17,3 +17,5 @@
 ## Diagrama de Clases
 ![Diagrama](diagrama_app.drawio.png)
 
+## Aplicación
+Despensa And Go es una aplicación de gestión de compras rutinarias, su objetivo es brindar una herramienta a los usuarios para que puedan autogestionar de buena manera sus compras, considerando los factores de precios, lugares, presupuesto y productos que quedan en el inventario.
