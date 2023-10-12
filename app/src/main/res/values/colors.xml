@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="my_light_primary">#4CAF50</color>
+    <color name="my_light_primary_fixed_dim">#A5D6A7</color>
 </resources>

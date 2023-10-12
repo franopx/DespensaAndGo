@@ -2,7 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.DespensaAndGo" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryFixedDim">@color/my_light_primary_fixed_dim</item>
     </style>
 
     <style name="Theme.DespensaAndGo" parent="Base.Theme.DespensaAndGo" />
