@@ -1,6 +1,7 @@
 # DespensaAndGo
 (Ver README en Github para mejor formato)
-Link: https://github.com/franopx/DespensaAndGo
+- Link GitHub: https://github.com/franopx/DespensaAndGo
+- Link Video: https://youtu.be/iOrNk1Hjtsw
 
 ## Requerimientos
 ### Funcionales:
