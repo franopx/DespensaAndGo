@@ -29,7 +29,7 @@ class ShopListAdapter(
 
         val shop = getItem(position)
 
-        // Bind product to textviews
+        // Bind shop to textviews
         val nameTextView = listItemView.findViewById<TextView>(R.id.shopNameText)
         val openHourTextView = listItemView.findViewById<TextView>(R.id.shopOpenHourText)
         val closeHourTextView = listItemView.findViewById<TextView>(R.id.shopCloseHourText)

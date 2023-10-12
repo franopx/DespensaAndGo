@@ -7,6 +7,13 @@
     android:orientation="vertical"
     tools:context="com.franciscogaleno.despensaandgo.ShopListActivity">
 
+    <Button
+        android:id="@+id/addShopButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Tienda" />
+
     <ListView
         android:id="@+id/shopList"
         android:layout_width="match_parent"

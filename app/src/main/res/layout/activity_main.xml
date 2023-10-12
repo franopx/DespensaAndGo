@@ -99,16 +99,6 @@
             android:textAlignment="viewStart"
             android:textColor="@color/white" />
 
-        <Button
-            android:id="@+id/button5"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:text="Recordatorios"
-            android:textAlignment="viewStart"
-            android:textColor="@color/white" />
-
         <Space
             android:layout_width="match_parent"
             android:layout_height="48dp"
@@ -123,11 +113,12 @@
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/manageShopButton"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="onShopButtonClick"
             android:text="Gestionar tiendas"
             android:textAlignment="viewStart"
             android:textColor="@color/white" />

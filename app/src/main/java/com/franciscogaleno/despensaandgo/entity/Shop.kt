@@ -1,9 +1,9 @@
 package com.franciscogaleno.despensaandgo.entity
 
-import android.location.Location
+
 import android.os.Parcel
 import android.os.Parcelable
-import java.util.Date
+
 
 data class Shop(
     val name: String?,
@@ -35,12 +35,12 @@ data class Shop(
         return 0
     }
 
-    companion object CREATOR : Parcelable.Creator<Product> {
-        override fun createFromParcel(parcel: Parcel): Product {
-            return Product(parcel)
+    companion object CREATOR : Parcelable.Creator<Shop> {
+        override fun createFromParcel(parcel: Parcel): Shop {
+            return Shop(parcel)
         }
 
-        override fun newArray(size: Int): Array<Product?> {
+        override fun newArray(size: Int): Array<Shop?> {
             return arrayOfNulls(size)
         }
     }
