@@ -29,7 +29,7 @@ class DefaultValues {
                 "Avena Integral Quaker 700g",
                 "",
                 2590,
-                "Lider",
+                "Lider Centro",
                 1
             )
         )

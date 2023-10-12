@@ -13,6 +13,12 @@
         android:theme="@style/Theme.DespensaAndGo"
         tools:targetApi="31">
         <activity
+            android:name="com.franciscogaleno.despensaandgo.ShoppingListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.franciscogaleno.despensaandgo.AddProductActivity"
+            android:exported="false" />
+        <activity
             android:name="com.franciscogaleno.despensaandgo.ProductListActivity"
             android:exported="false" />
         <activity

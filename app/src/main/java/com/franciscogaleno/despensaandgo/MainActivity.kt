@@ -12,6 +12,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    public fun onShoppingListButtonClick(view: View?)
+    {
+        val intent = Intent(this, ShoppingListActivity::class.java)
+        startActivity(intent)
+    }
+    public fun onProductButtonClick(view:View?)
+    {
+        val intent = Intent(this, ProductListActivity::class.java)
+        startActivity(intent)
+    }
     public fun onShopButtonClick(view: View?)
     {
         val intent = Intent(this, ShopListActivity::class.java)
